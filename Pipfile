@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-langchain = "*"
 openai = "*"
 python-dotenv = "*"
 langchain-community = "*"
@@ -18,6 +17,11 @@ chromadb = "*"
 langchain-openai = "*"
 pandas = "*"
 lark = "*"
+langchain-core = "*"
+langgraph = "*"
+langchain = {extras = ["openai"], version = "*"}
+panel = "*"
+param = "*"
 
 [dev-packages]
 ipykernel = "*"
