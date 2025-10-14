@@ -12,6 +12,12 @@ pypdf = "*"
 yt-dlp = "*"
 pydub = "*"
 beautifulsoup4 = "*"
+tiktoken = "*"
+chroma = "*"
+chromadb = "*"
+langchain-openai = "*"
+pandas = "*"
+lark = "*"
 
 [dev-packages]
 ipykernel = "*"
